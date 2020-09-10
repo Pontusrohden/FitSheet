@@ -39,7 +39,7 @@ namespace FitSheet
 
         async void OnNoteAddedClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NoteEntryPage
+            await Navigation.PushAsync(new WorkoutEntryPage
             {
                 BindingContext = new Note()
             });
